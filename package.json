@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/kolekaramol/NodeJsLearning/issues"
   },
-  "homepage": "https://github.com/kolekaramol/NodeJsLearning#readme"
+  "homepage": "https://github.com/kolekaramol/NodeJsLearning#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }
