@@ -1,0 +1,22 @@
+{
+  "name": "nodejslearning",
+  "version": "1.0.0",
+  "description": "Nodejs practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kolekaramol/NodeJsLearning.git"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "author": "kolekaramol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kolekaramol/NodeJsLearning/issues"
+  },
+  "homepage": "https://github.com/kolekaramol/NodeJsLearning#readme"
+}
