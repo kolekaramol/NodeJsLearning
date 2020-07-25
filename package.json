@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/kolekaramol/NodeJsLearning#readme",
   "dependencies": {
-    "chalk": "^4.1.0"
+    "chalk": "^4.1.0",
+    "yargs": "^15.4.1",
+    "yarn": "^1.22.4"
   }
 }

@@ -1,13 +1,16 @@
-day1chalk()
-{
-    const chalk=require('chalk');
-const log=console.log;
-log(chalk.blue('Welcome'));
-log(chalk.white.bgRed.bold('Hello world!'));
-log(`Student Marks
-Amol : ${chalk.white.bgRedBright.bold('(95 %)')}
-Anwar : ${chalk.white.bgGreen.bold('(78 %)')}
-`)
+const chalk = require('chalk');
+const log = console.log;
+day1chalkExample = {
 
+    chalkDisplay: function () {
+        log(chalk.white.bgCyan("Welocme to NodeJs learning"));
+        log(chalk.white.bgGreen.bold("Succcess"));
+        log(chalk.bgGrey.white(`student list:
+        Amol :${'engg'},
+        Amit :${'MBA'}    
+        `))
+    }
 }
-module.export=day1chalk
+
+module.exports = day1chalkExample;
+
