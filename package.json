@@ -21,6 +21,7 @@
   "homepage": "https://github.com/kolekaramol/NodeJsLearning#readme",
   "dependencies": {
     "chalk": "^4.1.0",
+    "postman-request": "^2.88.1-postman.23",
     "yargs": "^15.4.1",
     "yarn": "^1.22.4"
   }
