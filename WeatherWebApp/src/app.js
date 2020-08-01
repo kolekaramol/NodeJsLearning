@@ -85,6 +85,33 @@ app.get('/weather', (req, res) => {
     })
 })
 
+app.get('/weatherforecast', (req, res) => {
+    if (!req.query.address) {
+        return res.send({
+            error: 'You must provide an address!'
+        })
+    }
+
+    geocode(req.query.address, (error, { latitude, longitude, location } = {}) => {
+        if (error) {
+            return res.send({ error })
+        }
+
+        forecast(latitude, longitude,location, (error, forecastData) => {
+            if (error) {
+                return res.send({ error })
+            }
+
+            res.send({
+                forecast: forecastData,
+                location,
+                address: req.query.address
+            })
+        })
+    })
+})
+
+
 //other all api calls
 app.get("*",(request,response)=>{
     // response.send('Welcome to NodeJS learning.');
