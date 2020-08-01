@@ -20,8 +20,11 @@
   },
   "homepage": "https://github.com/kolekaramol/NodeJsLearning#readme",
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "chalk": "^4.1.0",
+    "express-hbs": "^2.3.4",
     "postman-request": "^2.88.1-postman.23",
+    "request": "^2.88.2",
     "yargs": "^15.4.1",
     "yarn": "^1.22.4"
   }
